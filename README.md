@@ -413,6 +413,7 @@ you will need to supply few VM arguments in the run configuration of the program
 * please got [spark-producer](https://github.com/utkarsh2811/spark-producer), clone it and run it on IntelliJ or whichever IDE you are comfortable with.
 * go to `http://localhost:5601/app/dev_tools#/console` and run below request by pasting it in the console:
 ```
+GET stream-events/_search
 {
   "query": {
     "fuzzy": {
