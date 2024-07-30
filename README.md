@@ -449,8 +449,8 @@ curl -X PUT "localhost:9200/stream-events" -H 'Content-Type: application/json' -
 }'
 ```
 * please go to [spark-consumer](https://github.com/utkarsh2811/spark-consumer), clone it and run it on IntelliJ or whichever IDE you are comfortable with.
-If you get some error related to java.io, 
-you may need to supply few VM arguments in the run configuration of the program:
+If you get some error related to java.io in running `spark-consumer` or `spark-producer`, 
+you will need to supply few VM arguments in the run configuration of the program:
 ```
 -Dspark.master=local[*]
 --add-opens=java.base/sun.nio.ch=ALL-UNNAMED
