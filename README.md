@@ -448,6 +448,7 @@ curl -X PUT "localhost:9200/stream-events" -H 'Content-Type: application/json' -
 }
 }'
 ```
+* just a pre-requisite to the solution. You must have installed following resources your local machine: JDK 17.0.9, Scala 2.12.17
 * please go to [spark-consumer](https://github.com/utkarsh2811/spark-consumer), clone it and run it on IntelliJ or whichever IDE you are comfortable with.
 If you get some error related to java.io in running `spark-consumer` or `spark-producer`, 
 you will need to supply few VM arguments in the run configuration of the program:
